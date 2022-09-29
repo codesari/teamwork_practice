@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+      #row-count {
+        padding: 5px;
+        margin: 0.5rem 0;
+        outline: none;
+        width: 35%;
+      }
+      #diamond {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+        border: 2px solid green;
+        width: 50%;
+        /* height: 70%; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <label for="row-count">Enter row count of maximum width:</label>
+      <input type="number" name="" id="row-count" value="5" />
+    </div>
+    <h4>Result:</h4>
+
+    <pre id="diamond"></pre>
+
+    <script src="diamond.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: burlywood;
+      }
+      h1 {
+        text-align: center;
+        color: blueviolet;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+      }
+      textarea {
+        resize: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Find the number of vowels in a given string</h1>
+
+    <div class="container">
+      <textarea
+        name="txtarea"
+        id="txtarea"
+        cols="50"
+        rows="2"
+        placeholder="Write your text here"
+        value=""
+      ></textarea>
+      <button class="btn">Count Vowels</button>
+    </div>
+
+    <script src="01_vowels-in-string.js"></script>
+  </body>
+</html>
